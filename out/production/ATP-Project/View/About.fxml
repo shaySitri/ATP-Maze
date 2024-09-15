@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.AboutWindow">
+   <children>
+      <Text layoutX="94.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="About">
+         <font>
+            <Font name="Gabriola" size="59.0" />
+         </font>
+      </Text>
+      <Text layoutX="110.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Itai Carmel">
+         <font>
+            <Font name="Gabriola" size="23.0" />
+         </font>
+      </Text>
+      <Text layoutX="115.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shay Sitri">
+         <font>
+            <Font name="Gabriola" size="24.0" />
+         </font>
+      </Text>
+      <TextArea editable="false" layoutX="22.0" layoutY="149.0" prefHeight="335.0" prefWidth="255.0" text="This maze created as part of Advanced &#10;Topics in Progrraming on Summer 2022.&#10;To genearte our complicated mazes we &#10;used in Prim's algorithm.&#10;For solving the problems, the user can&#10;choose between some searching algorithm&#10;that each of them has is own properties:&#10;Best First Search - solving with considering&#10;in the cheapest path - meaning, prefers diagonal&#10;steps.&#10;Breadth First Search - solving with consider&#10;in the shortest possible path.&#10;Deapth First Search - exploring the maze&#10;and keep going to the solution with no&#10;considerations.&#10;&#10;Hope you enjoyed our project! :)">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>

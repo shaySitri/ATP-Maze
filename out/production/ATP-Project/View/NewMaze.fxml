@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="400.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.NewMaze">
+   <children>
+      <Text fill="#bfbc26" layoutX="14.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rows Number">
+         <font>
+            <Font name="Gabriola" size="30.0" />
+         </font>
+      </Text>
+      <Text fill="#bfbc26" layoutX="14.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Columns Number">
+         <font>
+            <Font name="Gabriola" size="30.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txt_Row" layoutX="196.0" layoutY="87.0" prefHeight="26.0" prefWidth="189.0" />
+      <TextField fx:id="txt_Col" layoutX="196.0" layoutY="32.0" prefHeight="26.0" prefWidth="189.0" />
+      <Button fx:id="btnOK" alignment="CENTER" contentDisplay="CENTER" layoutX="147.0" layoutY="144.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="105.0" style="-fx-border-color: bfbc26; -fx-border-radius: 5; -fx-background-color: black;" textAlignment="CENTER" onMouseClicked="#generate">
+         <graphic>
+            <Text fill="#bfbc26" strokeType="OUTSIDE" strokeWidth="0.0" text="OK" textAlignment="RIGHT">
+               <font>
+                  <Font name="Gabriola" size="30.0" />
+               </font>
+            </Text>
+         </graphic>
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

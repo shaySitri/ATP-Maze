@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<?import View.MazeDisplayer?>
+
+<AnchorPane fx:id="borderPane" onMouseClicked="#mouseClicked" prefHeight="600.0" prefWidth="900.0" stylesheets="@MainStyle.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.MyViewController">
+   <children>
+      <Label layoutX="743.0" layoutY="568.8" prefHeight="23.0" prefWidth="128.0" text="Maze Movment Keys" AnchorPane.bottomAnchor="2.0" AnchorPane.rightAnchor="29.0">
+         <font>
+            <Font name="Gabriola" size="18.0" />
+         </font></Label>
+           <Label layoutX="96.0" layoutY="577.8" prefHeight="18.0" prefWidth="67.0" text="Player Col : " AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="96.0">
+         <font>
+            <Font name="Gabriola" size="16.0" />
+         </font></Label>
+           <Label fx:id="playerCol" layoutX="155.0" layoutY="571.4" prefHeight="18.0" prefWidth="26.0" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="155.0">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+           <Label layoutX="1.0" layoutY="577.6" prefHeight="18.0" prefWidth="71.0" text="Player Row : " AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="3.0">
+         <font>
+            <Font name="Gabriola" size="16.0" />
+         </font></Label>
+           <Label fx:id="playerRow" layoutX="66.0" layoutY="571.4" prefHeight="18.0" prefWidth="26.0" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="66.0">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+       <MenuBar AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+           <menus>
+               <Menu mnemonicParsing="false" text="File">
+                   <items>
+                       <MenuItem mnemonicParsing="false" onAction="#newMaze" text="New" />
+                       <MenuItem mnemonicParsing="false" onAction="#saveMaze" text="Save" />
+                       <MenuItem mnemonicParsing="false" onAction="#openFile" text="Load" />
+                   </items>
+               </Menu>
+               <Menu mnemonicParsing="false" text="Options">
+                   <items>
+                       <MenuItem mnemonicParsing="false" onAction="#properties" text="Properties" />
+                   </items>
+               </Menu>
+               <Menu mnemonicParsing="false" text="Help">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#help" text="Help" />
+               </items></Menu>
+               <Menu fx:id="aboutMenu" mnemonicParsing="false" text="About">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#about" text="About Us" />
+               </items></Menu>
+               <Menu mnemonicParsing="false" text="Exit">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#exit" text="Exit" />
+               </items></Menu>
+           </menus>
+       </MenuBar>
+      <GridPane layoutX="714.0" layoutY="461.4" prefHeight="109.0" prefWidth="180.0" AnchorPane.bottomAnchor="25.0" AnchorPane.rightAnchor="6.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="80.0" minWidth="10.0" prefWidth="42.199951171875" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="72.00000381469727" minWidth="10.0" prefWidth="48.00000000000001" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="82.20001220703125" minWidth="10.0" prefWidth="45.599999999999994" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button mnemonicParsing="false" onAction="#mazeLeft" prefHeight="77.0" prefWidth="80.0" text="Left" GridPane.rowIndex="2">
+               <font>
+                  <Font size="10.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#mazeDown" prefHeight="84.0" prefWidth="80.0" text="Down" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font size="10.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#mazeRight" prefHeight="82.0" prefWidth="94.0" text="Right" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font size="10.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#mazeUp" prefHeight="85.0" prefWidth="99.0" text="Up" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="10.0" />
+               </font></Button>
+         </children>
+      </GridPane>
+       <Pane fx:id="PaneTry" layoutX="55.0" layoutY="88.0" prefHeight="422.0" prefWidth="783.0" AnchorPane.bottomAnchor="105.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="95.0">
+           <children>
+               <MazeDisplayer fx:id="mazeDisplayer" height="450.0" imageFileNamePlayer="./resources/images/"  imageFileNameWall="./resources/images/wall" onKeyPressed="#keyPressed" width="450.0"
+                              onScroll="#scrollEvent"  onMousePressed="#pressed" onMouseDragged="#dragged" onMouseReleased="#released" imageFileNameEmpty="./resources/images/space.jpg"
+                              imageFileNameEnd ="./resources/images/end"  imageFileNameSol="./resources/images/sol"   />
+           </children>
+       </Pane>
+           <Button layoutX="6.0" layoutY="40.0" onAction="#silence" prefHeight="26.0" prefWidth="128.0" text="Silence" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="40.0" />
+           <Button cancelButton="true" layoutX="147.0" layoutY="40.0" onAction="#solveMaze" prefHeight="26.0" prefWidth="128.0" text="Solve Maze" AnchorPane.leftAnchor="147.0" AnchorPane.topAnchor="40.0" />
+      <Button layoutX="796.2" layoutY="40.0" mnemonicParsing="false" onAction="#changeNameShay" text="Shay" AnchorPane.rightAnchor="59.0" AnchorPane.topAnchor="40.0" />
+      <Button layoutX="847.6" layoutY="40.0" mnemonicParsing="false" onAction="#changeNameItai" prefHeight="23.0" prefWidth="38.0" text="Itai" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="40.0" />
+      <Label layoutX="721.8" layoutY="46.0" prefHeight="19.0" prefWidth="71.0" text="Chose Player:" AnchorPane.rightAnchor="107.0" AnchorPane.topAnchor="46.0">
+         <font>
+            <Font name="Gabriola" size="16.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

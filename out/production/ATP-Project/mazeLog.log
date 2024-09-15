@@ -1,0 +1,333 @@
+2022-07-01 01:22:15 INFO  MyModel:42 - New maze generator server created.
+2022-07-01 01:22:15 INFO  MyModel:44 - New maze solver server created.
+2022-07-01 01:22:15 INFO  MyModel:46 - Maze generator server start.
+2022-07-01 01:22:15 INFO  MyModel:48 - Maze solver server start.
+2022-07-01 01:22:30 INFO  MyModel:55 - Client try to create a maze
+2022-07-01 01:22:30 INFO  MyModel:69 - New maze in size [10,10] creates by server.
+2022-07-01 01:39:53 INFO  MyModel:36 - Generator server: info- new maze generator server created.
+2022-07-01 01:39:53 INFO  MyModel:38 - Solver server: info- new maze solver server created.
+2022-07-01 01:39:53 INFO  MyModel:40 - Generator server: info- server start.
+2022-07-01 01:39:53 INFO  MyModel:42 - Solver server: info- server start.
+2022-07-01 01:40:01 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 01:40:01 INFO  MyModel:63 - Generator server: info- new maze in size [50,50] creates by server.
+2022-07-01 01:40:01 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 01:40:23 INFO  MyModel:192 - Solver server: info- client try to solve a maze
+2022-07-01 01:40:23 INFO  MyModel:199 - Solver server: info- solver found solution with Best First Search
+2022-07-01 01:40:23 INFO  MyModel:200 - Solver server: info- solution has57 steps
+2022-07-01 01:46:38 INFO  MyModel:36 - Generator server: info- new maze generator server created.
+2022-07-01 01:46:38 INFO  MyModel:38 - Solver server: info- new maze solver server created.
+2022-07-01 01:46:38 INFO  MyModel:40 - Generator server: info- server start.
+2022-07-01 01:46:38 INFO  MyModel:42 - Solver server: info- server start.
+2022-07-01 01:47:31 INFO  MyModel:243 - Generator server: info- server stopped
+2022-07-01 01:47:31 INFO  MyModel:244 - Solver server: info- server stopped
+2022-07-01 02:11:05 INFO  MyModel:36 - Generator server: info- new maze generator server created.
+2022-07-01 02:11:05 INFO  MyModel:38 - Solver server: info- new maze solver server created.
+2022-07-01 02:11:05 INFO  MyModel:40 - Generator server: info- server start.
+2022-07-01 02:11:05 INFO  MyModel:42 - Solver server: info- server start.
+2022-07-01 02:11:29 INFO  MyModel:243 - Generator server: info- server stopped
+2022-07-01 02:11:29 INFO  MyModel:244 - Solver server: info- server stopped
+2022-07-01 10:10:08 INFO  MyModel:36 - Generator server: info- new maze generator server created.
+2022-07-01 10:10:08 INFO  MyModel:38 - Solver server: info- new maze solver server created.
+2022-07-01 10:10:08 INFO  MyModel:40 - Generator server: info- server start.
+2022-07-01 10:10:08 INFO  MyModel:42 - Solver server: info- server start.
+2022-07-01 10:10:17 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:10:17 INFO  MyModel:63 - Generator server: info- new maze in size [7,7] creates by server.
+2022-07-01 10:10:17 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:10:55 INFO  MyModel:243 - Generator server: info- server stopped
+2022-07-01 10:10:55 INFO  MyModel:244 - Solver server: info- server stopped
+2022-07-01 10:12:08 INFO  MyModel:36 - Generator server: info- new maze generator server created.
+2022-07-01 10:12:08 INFO  MyModel:38 - Solver server: info- new maze solver server created.
+2022-07-01 10:12:08 INFO  MyModel:40 - Generator server: info- server start.
+2022-07-01 10:12:08 INFO  MyModel:42 - Solver server: info- server start.
+2022-07-01 10:12:12 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:12:12 INFO  MyModel:63 - Generator server: info- new maze in size [8,8] creates by server.
+2022-07-01 10:12:13 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:13:33 INFO  MyModel:36 - Generator server: info- new maze generator server created.
+2022-07-01 10:13:33 INFO  MyModel:38 - Solver server: info- new maze solver server created.
+2022-07-01 10:13:33 INFO  MyModel:40 - Generator server: info- server start.
+2022-07-01 10:13:33 INFO  MyModel:42 - Solver server: info- server start.
+2022-07-01 10:13:41 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:13:41 INFO  MyModel:63 - Generator server: info- new maze in size [8,8] creates by server.
+2022-07-01 10:13:41 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:14:22 INFO  MyModel:36 - Generator server: info- new maze generator server created.
+2022-07-01 10:14:22 INFO  MyModel:38 - Solver server: info- new maze solver server created.
+2022-07-01 10:14:22 INFO  MyModel:40 - Generator server: info- server start.
+2022-07-01 10:14:22 INFO  MyModel:42 - Solver server: info- server start.
+2022-07-01 10:14:30 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:14:30 INFO  MyModel:63 - Generator server: info- new maze in size [8,8] creates by server.
+2022-07-01 10:14:30 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:14:41 INFO  MyModel:36 - Generator server: info- new maze generator server created.
+2022-07-01 10:14:41 INFO  MyModel:38 - Solver server: info- new maze solver server created.
+2022-07-01 10:14:41 INFO  MyModel:40 - Generator server: info- server start.
+2022-07-01 10:14:41 INFO  MyModel:42 - Solver server: info- server start.
+2022-07-01 10:14:46 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:14:46 INFO  MyModel:63 - Generator server: info- new maze in size [9,9] creates by server.
+2022-07-01 10:14:46 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:15:47 INFO  MyModel:36 - Generator server: info- new maze generator server created.
+2022-07-01 10:15:47 INFO  MyModel:38 - Solver server: info- new maze solver server created.
+2022-07-01 10:15:47 INFO  MyModel:40 - Generator server: info- server start.
+2022-07-01 10:15:47 INFO  MyModel:42 - Solver server: info- server start.
+2022-07-01 10:15:51 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:15:51 INFO  MyModel:63 - Generator server: info- new maze in size [7,7] creates by server.
+2022-07-01 10:15:51 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:17:24 INFO  MyModel:36 - Generator server: info- new maze generator server created.
+2022-07-01 10:17:24 INFO  MyModel:38 - Solver server: info- new maze solver server created.
+2022-07-01 10:17:24 INFO  MyModel:40 - Generator server: info- server start.
+2022-07-01 10:17:24 INFO  MyModel:42 - Solver server: info- server start.
+2022-07-01 10:17:29 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:17:29 INFO  MyModel:63 - Generator server: info- new maze in size [9,9] creates by server.
+2022-07-01 10:17:29 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:17:45 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:17:45 INFO  MyModel:63 - Generator server: info- new maze in size [20,20] creates by server.
+2022-07-01 10:17:46 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:18:13 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:18:13 INFO  MyModel:63 - Generator server: info- new maze in size [7,7] creates by server.
+2022-07-01 10:18:13 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:18:19 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:18:19 INFO  MyModel:63 - Generator server: info- new maze in size [10,10] creates by server.
+2022-07-01 10:18:19 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:19:57 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:19:57 INFO  MyModel:63 - Generator server: info- new maze in size [20,20] creates by server.
+2022-07-01 10:19:57 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:22:46 INFO  MyModel:36 - Generator server: info- new maze generator server created.
+2022-07-01 10:22:46 INFO  MyModel:38 - Solver server: info- new maze solver server created.
+2022-07-01 10:22:46 INFO  MyModel:40 - Generator server: info- server start.
+2022-07-01 10:22:46 INFO  MyModel:42 - Solver server: info- server start.
+2022-07-01 10:22:56 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:22:56 INFO  MyModel:63 - Generator server: info- new maze in size [20,20] creates by server.
+2022-07-01 10:22:56 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:23:43 INFO  MyModel:36 - Generator server: info- new maze generator server created.
+2022-07-01 10:23:43 INFO  MyModel:38 - Solver server: info- new maze solver server created.
+2022-07-01 10:23:43 INFO  MyModel:40 - Generator server: info- server start.
+2022-07-01 10:23:43 INFO  MyModel:42 - Solver server: info- server start.
+2022-07-01 10:23:50 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:23:50 INFO  MyModel:63 - Generator server: info- new maze in size [20,20] creates by server.
+2022-07-01 10:23:50 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:24:05 INFO  MyModel:243 - Generator server: info- server stopped
+2022-07-01 10:24:05 INFO  MyModel:244 - Solver server: info- server stopped
+2022-07-01 10:24:21 INFO  MyModel:36 - Generator server: info- new maze generator server created.
+2022-07-01 10:24:21 INFO  MyModel:38 - Solver server: info- new maze solver server created.
+2022-07-01 10:24:21 INFO  MyModel:40 - Generator server: info- server start.
+2022-07-01 10:24:21 INFO  MyModel:42 - Solver server: info- server start.
+2022-07-01 10:24:27 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:24:27 INFO  MyModel:63 - Generator server: info- new maze in size [20,20] creates by server.
+2022-07-01 10:24:27 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:24:45 INFO  MyModel:243 - Generator server: info- server stopped
+2022-07-01 10:24:45 INFO  MyModel:244 - Solver server: info- server stopped
+2022-07-01 10:25:22 INFO  MyModel:36 - Generator server: info- new maze generator server created.
+2022-07-01 10:25:22 INFO  MyModel:38 - Solver server: info- new maze solver server created.
+2022-07-01 10:25:22 INFO  MyModel:40 - Generator server: info- server start.
+2022-07-01 10:25:22 INFO  MyModel:42 - Solver server: info- server start.
+2022-07-01 10:25:28 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:25:28 INFO  MyModel:63 - Generator server: info- new maze in size [20,20] creates by server.
+2022-07-01 10:25:28 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:25:39 INFO  MyModel:243 - Generator server: info- server stopped
+2022-07-01 10:25:39 INFO  MyModel:244 - Solver server: info- server stopped
+2022-07-01 10:25:54 INFO  MyModel:36 - Generator server: info- new maze generator server created.
+2022-07-01 10:25:54 INFO  MyModel:38 - Solver server: info- new maze solver server created.
+2022-07-01 10:25:54 INFO  MyModel:40 - Generator server: info- server start.
+2022-07-01 10:25:54 INFO  MyModel:42 - Solver server: info- server start.
+2022-07-01 10:26:01 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:26:01 INFO  MyModel:63 - Generator server: info- new maze in size [20,20] creates by server.
+2022-07-01 10:26:01 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:26:15 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:26:15 INFO  MyModel:63 - Generator server: info- new maze in size [20,20] creates by server.
+2022-07-01 10:26:15 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:27:07 INFO  MyModel:36 - Generator server: info- new maze generator server created.
+2022-07-01 10:27:07 INFO  MyModel:38 - Solver server: info- new maze solver server created.
+2022-07-01 10:27:07 INFO  MyModel:40 - Generator server: info- server start.
+2022-07-01 10:27:07 INFO  MyModel:42 - Solver server: info- server start.
+2022-07-01 10:27:15 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:27:15 INFO  MyModel:63 - Generator server: info- new maze in size [20,20] creates by server.
+2022-07-01 10:27:16 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:29:16 INFO  MyModel:36 - Generator server: info- new maze generator server created.
+2022-07-01 10:29:16 INFO  MyModel:38 - Solver server: info- new maze solver server created.
+2022-07-01 10:29:16 INFO  MyModel:40 - Generator server: info- server start.
+2022-07-01 10:29:16 INFO  MyModel:42 - Solver server: info- server start.
+2022-07-01 10:29:20 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:29:20 INFO  MyModel:63 - Generator server: info- new maze in size [4,4] creates by server.
+2022-07-01 10:29:20 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:29:27 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:29:27 INFO  MyModel:63 - Generator server: info- new maze in size [4,4] creates by server.
+2022-07-01 10:29:27 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:29:31 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:29:31 INFO  MyModel:63 - Generator server: info- new maze in size [9,9] creates by server.
+2022-07-01 10:29:31 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:29:34 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:29:34 INFO  MyModel:63 - Generator server: info- new maze in size [9,9] creates by server.
+2022-07-01 10:29:34 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:29:37 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:29:37 INFO  MyModel:63 - Generator server: info- new maze in size [9,9] creates by server.
+2022-07-01 10:29:37 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:30:33 INFO  MyModel:243 - Generator server: info- server stopped
+2022-07-01 10:30:33 INFO  MyModel:244 - Solver server: info- server stopped
+2022-07-01 10:35:11 INFO  MyModel:36 - Generator server: info- new maze generator server created.
+2022-07-01 10:35:11 INFO  MyModel:38 - Solver server: info- new maze solver server created.
+2022-07-01 10:35:11 INFO  MyModel:40 - Generator server: info- server start.
+2022-07-01 10:35:11 INFO  MyModel:42 - Solver server: info- server start.
+2022-07-01 10:35:15 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:35:15 INFO  MyModel:63 - Generator server: info- new maze in size [8,8] creates by server.
+2022-07-01 10:35:16 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:37:41 INFO  MyModel:36 - Generator server: info- new maze generator server created.
+2022-07-01 10:37:41 INFO  MyModel:38 - Solver server: info- new maze solver server created.
+2022-07-01 10:37:41 INFO  MyModel:40 - Generator server: info- server start.
+2022-07-01 10:37:41 INFO  MyModel:42 - Solver server: info- server start.
+2022-07-01 10:37:50 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:37:50 INFO  MyModel:63 - Generator server: info- new maze in size [9,9] creates by server.
+2022-07-01 10:37:50 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:38:40 INFO  MyModel:243 - Generator server: info- server stopped
+2022-07-01 10:38:40 INFO  MyModel:244 - Solver server: info- server stopped
+2022-07-01 10:39:28 INFO  MyModel:36 - Generator server: info- new maze generator server created.
+2022-07-01 10:39:28 INFO  MyModel:38 - Solver server: info- new maze solver server created.
+2022-07-01 10:39:28 INFO  MyModel:40 - Generator server: info- server start.
+2022-07-01 10:39:28 INFO  MyModel:42 - Solver server: info- server start.
+2022-07-01 10:39:34 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:39:34 INFO  MyModel:63 - Generator server: info- new maze in size [9,9] creates by server.
+2022-07-01 10:39:34 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:39:46 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:39:46 INFO  MyModel:63 - Generator server: info- new maze in size [9,9] creates by server.
+2022-07-01 10:39:46 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:43:41 INFO  MyModel:36 - Generator server: info- new maze generator server created.
+2022-07-01 10:43:41 INFO  MyModel:38 - Solver server: info- new maze solver server created.
+2022-07-01 10:43:41 INFO  MyModel:40 - Generator server: info- server start.
+2022-07-01 10:43:41 INFO  MyModel:42 - Solver server: info- server start.
+2022-07-01 10:43:57 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:43:57 INFO  MyModel:63 - Generator server: info- new maze in size [10,10] creates by server.
+2022-07-01 10:43:57 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:44:46 INFO  MyModel:243 - Generator server: info- server stopped
+2022-07-01 10:44:46 INFO  MyModel:244 - Solver server: info- server stopped
+2022-07-01 10:45:52 INFO  MyModel:36 - Generator server: info- new maze generator server created.
+2022-07-01 10:45:52 INFO  MyModel:38 - Solver server: info- new maze solver server created.
+2022-07-01 10:45:52 INFO  MyModel:40 - Generator server: info- server start.
+2022-07-01 10:45:52 INFO  MyModel:42 - Solver server: info- server start.
+2022-07-01 10:45:55 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:45:55 INFO  MyModel:63 - Generator server: info- new maze in size [8,8] creates by server.
+2022-07-01 10:45:55 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:48:58 INFO  MyModel:36 - Generator server: info- new maze generator server created.
+2022-07-01 10:48:58 INFO  MyModel:38 - Solver server: info- new maze solver server created.
+2022-07-01 10:48:58 INFO  MyModel:40 - Generator server: info- server start.
+2022-07-01 10:48:58 INFO  MyModel:42 - Solver server: info- server start.
+2022-07-01 10:49:06 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:49:06 INFO  MyModel:63 - Generator server: info- new maze in size [9,9] creates by server.
+2022-07-01 10:49:06 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:49:56 INFO  MyModel:36 - Generator server: info- new maze generator server created.
+2022-07-01 10:49:56 INFO  MyModel:38 - Solver server: info- new maze solver server created.
+2022-07-01 10:49:56 INFO  MyModel:40 - Generator server: info- server start.
+2022-07-01 10:49:56 INFO  MyModel:42 - Solver server: info- server start.
+2022-07-01 10:50:00 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:50:00 INFO  MyModel:63 - Generator server: info- new maze in size [9,9] creates by server.
+2022-07-01 10:50:00 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:50:45 INFO  MyModel:243 - Generator server: info- server stopped
+2022-07-01 10:50:45 INFO  MyModel:244 - Solver server: info- server stopped
+2022-07-01 10:51:43 INFO  MyModel:36 - Generator server: info- new maze generator server created.
+2022-07-01 10:51:43 INFO  MyModel:38 - Solver server: info- new maze solver server created.
+2022-07-01 10:51:43 INFO  MyModel:40 - Generator server: info- server start.
+2022-07-01 10:51:43 INFO  MyModel:42 - Solver server: info- server start.
+2022-07-01 10:51:47 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:51:47 INFO  MyModel:63 - Generator server: info- new maze in size [9,9] creates by server.
+2022-07-01 10:51:47 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:51:55 INFO  MyModel:243 - Generator server: info- server stopped
+2022-07-01 10:51:55 INFO  MyModel:244 - Solver server: info- server stopped
+2022-07-01 10:52:50 INFO  MyModel:36 - Generator server: info- new maze generator server created.
+2022-07-01 10:52:50 INFO  MyModel:38 - Solver server: info- new maze solver server created.
+2022-07-01 10:52:50 INFO  MyModel:40 - Generator server: info- server start.
+2022-07-01 10:52:50 INFO  MyModel:42 - Solver server: info- server start.
+2022-07-01 10:52:54 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:52:54 INFO  MyModel:63 - Generator server: info- new maze in size [9,9] creates by server.
+2022-07-01 10:52:54 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:53:27 INFO  MyModel:36 - Generator server: info- new maze generator server created.
+2022-07-01 10:53:27 INFO  MyModel:38 - Solver server: info- new maze solver server created.
+2022-07-01 10:53:27 INFO  MyModel:40 - Generator server: info- server start.
+2022-07-01 10:53:27 INFO  MyModel:42 - Solver server: info- server start.
+2022-07-01 10:53:31 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:53:31 INFO  MyModel:63 - Generator server: info- new maze in size [9,9] creates by server.
+2022-07-01 10:53:31 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:55:55 INFO  MyModel:36 - Generator server: info- new maze generator server created.
+2022-07-01 10:55:55 INFO  MyModel:38 - Solver server: info- new maze solver server created.
+2022-07-01 10:55:55 INFO  MyModel:40 - Generator server: info- server start.
+2022-07-01 10:55:55 INFO  MyModel:42 - Solver server: info- server start.
+2022-07-01 10:56:00 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:56:00 INFO  MyModel:63 - Generator server: info- new maze in size [9,9] creates by server.
+2022-07-01 10:56:00 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:56:13 INFO  MyModel:243 - Generator server: info- server stopped
+2022-07-01 10:56:13 INFO  MyModel:244 - Solver server: info- server stopped
+2022-07-01 10:56:41 INFO  MyModel:36 - Generator server: info- new maze generator server created.
+2022-07-01 10:56:41 INFO  MyModel:38 - Solver server: info- new maze solver server created.
+2022-07-01 10:56:41 INFO  MyModel:40 - Generator server: info- server start.
+2022-07-01 10:56:41 INFO  MyModel:42 - Solver server: info- server start.
+2022-07-01 10:56:45 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:56:45 INFO  MyModel:63 - Generator server: info- new maze in size [9,9] creates by server.
+2022-07-01 10:56:46 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:56:55 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:56:55 INFO  MyModel:63 - Generator server: info- new maze in size [20,20] creates by server.
+2022-07-01 10:56:55 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:58:42 INFO  MyModel:243 - Generator server: info- server stopped
+2022-07-01 10:58:42 INFO  MyModel:244 - Solver server: info- server stopped
+2022-07-01 10:58:53 INFO  MyModel:36 - Generator server: info- new maze generator server created.
+2022-07-01 10:58:53 INFO  MyModel:38 - Solver server: info- new maze solver server created.
+2022-07-01 10:58:53 INFO  MyModel:40 - Generator server: info- server start.
+2022-07-01 10:58:53 INFO  MyModel:42 - Solver server: info- server start.
+2022-07-01 10:59:03 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-01 10:59:03 INFO  MyModel:63 - Generator server: info- new maze in size [9,9] creates by server.
+2022-07-01 10:59:03 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-01 10:59:07 INFO  MyModel:192 - Solver server: info- client try to solve a maze
+2022-07-01 10:59:07 INFO  MyModel:199 - Solver server: info- solver found solution with Best First Search
+2022-07-01 10:59:07 INFO  MyModel:200 - Solver server: info- solution has21 steps
+2022-07-01 10:59:25 INFO  MyModel:243 - Generator server: info- server stopped
+2022-07-01 10:59:25 INFO  MyModel:244 - Solver server: info- server stopped
+2022-07-08 14:10:36 INFO  MyModel:36 - Generator server: info- new maze generator server created.
+2022-07-08 14:10:36 INFO  MyModel:38 - Solver server: info- new maze solver server created.
+2022-07-08 14:10:36 INFO  MyModel:40 - Generator server: info- server start.
+2022-07-08 14:10:36 INFO  MyModel:42 - Solver server: info- server start.
+2022-07-08 14:10:43 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-08 14:10:43 INFO  MyModel:63 - Generator server: info- new maze in size [6,6] creates by server.
+2022-07-08 14:10:43 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-08 14:10:49 INFO  MyModel:192 - Solver server: info- client try to solve a maze
+2022-07-08 14:10:49 INFO  MyModel:199 - Solver server: info- solver found solution with Best First Search
+2022-07-08 14:10:49 INFO  MyModel:200 - Solver server: info- solution has7 steps
+2022-07-08 14:11:13 INFO  MyModel:243 - Generator server: info- server stopped
+2022-07-08 14:11:13 INFO  MyModel:244 - Solver server: info- server stopped
+2022-07-08 22:32:02 INFO  MyModel:36 - Generator server: info- new maze generator server created.
+2022-07-08 22:32:02 INFO  MyModel:38 - Solver server: info- new maze solver server created.
+2022-07-08 22:32:02 INFO  MyModel:40 - Generator server: info- server start.
+2022-07-08 22:32:02 INFO  MyModel:42 - Solver server: info- server start.
+2022-07-08 22:32:06 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-08 22:32:06 INFO  MyModel:63 - Generator server: info- new maze in size [6,6] creates by server.
+2022-07-08 22:32:06 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-08 22:32:41 INFO  MyModel:36 - Generator server: info- new maze generator server created.
+2022-07-08 22:32:41 INFO  MyModel:38 - Solver server: info- new maze solver server created.
+2022-07-08 22:32:41 INFO  MyModel:40 - Generator server: info- server start.
+2022-07-08 22:32:41 INFO  MyModel:42 - Solver server: info- server start.
+2022-07-08 22:32:45 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-08 22:32:45 INFO  MyModel:63 - Generator server: info- new maze in size [6,6] creates by server.
+2022-07-08 22:32:45 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-08 22:34:12 INFO  MyModel:36 - Generator server: info- new maze generator server created.
+2022-07-08 22:34:12 INFO  MyModel:38 - Solver server: info- new maze solver server created.
+2022-07-08 22:34:12 INFO  MyModel:40 - Generator server: info- server start.
+2022-07-08 22:34:12 INFO  MyModel:42 - Solver server: info- server start.
+2022-07-08 22:34:16 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-08 22:34:16 INFO  MyModel:63 - Generator server: info- new maze in size [6,6] creates by server.
+2022-07-08 22:34:16 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-08 22:34:37 INFO  MyModel:243 - Generator server: info- server stopped
+2022-07-08 22:34:37 INFO  MyModel:244 - Solver server: info- server stopped
+2022-07-08 22:34:53 INFO  MyModel:36 - Generator server: info- new maze generator server created.
+2022-07-08 22:34:53 INFO  MyModel:38 - Solver server: info- new maze solver server created.
+2022-07-08 22:34:53 INFO  MyModel:40 - Generator server: info- server start.
+2022-07-08 22:34:53 INFO  MyModel:42 - Solver server: info- server start.
+2022-07-08 22:34:58 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2022-07-08 22:34:58 INFO  MyModel:63 - Generator server: info- new maze in size [6,6] creates by server.
+2022-07-08 22:34:58 INFO  MyModel:76 - Generator server: info- maze generated
+2022-07-08 22:36:31 INFO  MyModel:243 - Generator server: info- server stopped
+2022-07-08 22:36:31 INFO  MyModel:244 - Solver server: info- server stopped
+2024-09-15 15:37:19 INFO  MyModel:36 - Generator server: info- new maze generator server created.
+2024-09-15 15:37:19 INFO  MyModel:38 - Solver server: info- new maze solver server created.
+2024-09-15 15:37:19 INFO  MyModel:40 - Generator server: info- server start.
+2024-09-15 15:37:19 INFO  MyModel:42 - Solver server: info- server start.
+2024-09-15 15:37:40 INFO  MyModel:49 - Generator server: info- client try to create a maze
+2024-09-15 15:37:40 INFO  MyModel:63 - Generator server: info- new maze in size [10,8] creates by server.
+2024-09-15 15:37:40 INFO  MyModel:76 - Generator server: info- maze generated
+2024-09-15 15:38:33 INFO  MyModel:192 - Solver server: info- client try to solve a maze
+2024-09-15 15:38:33 INFO  MyModel:199 - Solver server: info- solver found solution with Best First Search
+2024-09-15 15:38:33 INFO  MyModel:200 - Solver server: info- solution has14 steps
+2024-09-15 15:38:46 INFO  MyModel:243 - Generator server: info- server stopped
+2024-09-15 15:38:46 INFO  MyModel:244 - Solver server: info- server stopped
